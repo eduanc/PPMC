@@ -9,6 +9,17 @@ public abstract class Creature {
 	private float atk;
 	private float def;	
 		
+	public Creature() {
+
+	}
+	
+	public Creature(String name, float life, float atk, float def) {
+		this.name = name;
+		this.life = life;
+		this.atk = atk;
+		this.def = def;
+	}
+	
 	public String getName() {
 		return name;
 	}
