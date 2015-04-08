@@ -7,8 +7,7 @@ import java.util.Properties;
 public class PropertyUtil {
 	public static Properties getProp() throws IOException {
 		Properties props = new Properties();
-		FileInputStream file = new FileInputStream(
-				"com.properties/game.properties");
+		FileInputStream file = new FileInputStream("com.properties/game.properties");
 		props.load(file);
 		return props;
 	}

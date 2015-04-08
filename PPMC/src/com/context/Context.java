@@ -19,6 +19,7 @@ public class Context {
 	private static Context staticInstance;
 	
 	private final Set<Character> pressed = new HashSet<Character>();
+	
 	public Set<Character> getPressed() {
 		return pressed;
 	}

@@ -31,5 +31,4 @@ public class Background extends GenericElement {
 	public void moveY(int distance) {
 		setY(getY() + distance);
 	}
-
 }

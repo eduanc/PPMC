@@ -12,9 +12,7 @@ public class GenericElement {
 	private int x;
 	private int y;
 	private Image image;
-	
-	
-
+		
 	public GenericElement(int x, int y, String imagePath) {
 		super();
 		this.x = x;
@@ -67,5 +65,4 @@ public class GenericElement {
 	public void paint(Graphics2D g) {
 		g.drawImage(image, x, y, width, height, null);
 	}
-
 }

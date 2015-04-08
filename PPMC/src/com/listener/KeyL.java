@@ -2,11 +2,8 @@ package com.listener;
 
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
-import java.util.HashSet;
-import java.util.Set;
 
 import com.context.Context;
-import com.element.Player;
 
 public class KeyL implements KeyListener {
 
@@ -40,7 +37,4 @@ public class KeyL implements KeyListener {
     public synchronized void keyReleased(KeyEvent e) {
     	context.getPressed().remove(e.getKeyChar());
     }
-
-	
-
 }
